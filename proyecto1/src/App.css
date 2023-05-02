@@ -1,0 +1,30 @@
+.memes-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.meme {
+  text-align: center;
+}
+
+.meme span{
+  position: absolute;
+  display: block;
+  left: 50%;
+  transform: translate(-50%, -50%);   /* Alinear los elementos en el centro del contenedor */
+  margin-top: 50px;
+  font-size: 38px;
+  color: white;
+  /* text-shadow: 0 0 10px #000; */
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 rgb(255 250 250), 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.meme span:nth-child(3){
+  margin-top: 500px
+}
+
+.imagen {
+  width: 600px
+}
